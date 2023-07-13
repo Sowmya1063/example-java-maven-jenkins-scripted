@@ -16,8 +16,8 @@ node {
           sh """
             ./mvnw deploy \
                 -Drepo.id=github \
-                -Drepo.login=${MVN_USERNAME} \
-                -Drepo.pwd=${MVN_PASSWORD} \
+                -Drepo.login=Sowmya1063 \
+                -Drepo.pwd=Akk@2003\
                 -Drevision=1.${BUILD_NUMBER}
           """
         }  
